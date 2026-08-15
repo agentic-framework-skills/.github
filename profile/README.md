@@ -17,6 +17,7 @@ npx skills add agentic-framework-skills --all
 # Install a specific skill
 npx skills add agentic-framework-skills/AESEv2
 npx skills add agentic-framework-skills/AHSE
+npx skills add agentic-framework-skills/GHW
 
 # Use a skill without installing it
 npx skills use agentic-framework-skills/AHSE
@@ -28,11 +29,13 @@ npx skills use agentic-framework-skills/AHSE
 |---|---|---|---|
 | **[AESEv2](https://github.com/agentic-framework-skills/AESEv2)** | Autonomous Astro & Cloudflare Edge Synthesis Engine | Astro 4+ web app on Cloudflare Workers/Pages — 100% Free Tier ($0.00 / mo). Built and pushed via the GitHub API. | `STAGE-999: SUCCESS_DELIVERY` / `BURNOUT-000: FREE_TIER_OVERFLOW` |
 | **[AHSE](https://github.com/agentic-framework-skills/AHSE)** | Autonomous Hardware & Software Product Synthesis Engine | Full HW/SW product blueprint (real BOM, firmware, edge AI, cloud API, UI/UX) from zero context. | `STAGE-999: SUCCESS_DELIVERY` / `BURNOUT-000: VIABILITY_COLLAPSE` |
+| **[GHW](https://github.com/agentic-framework-skills/GHW)** | Git Workflow | Enforces topic branches, no-rebase, SemVer tags, and "sync git" semantics across repo work. | _(alwaysApplied rule set — no terminal code)_ |
 
 ## Trigger patterns
 
 - `WHAT <sentence>` then `INIT` — describe an app, then build it. *(AESEv2)*
 - `INIT` — synthesize a complete HW/SW product from the provided context. *(AHSE)*
+- `GHW` — always applied; enforces this organization's Git workflow on every generation. *(GHW)*
 
 ## License
 
